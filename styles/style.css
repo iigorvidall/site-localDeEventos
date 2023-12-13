@@ -914,14 +914,14 @@ body {
     border: none;
     outline: none;
     width: 326px;
-    background-color: #ffffff8e;
-    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.801);
+    color: #000000;
     padding: 17px 22px 17px 22px;
 }
 
 .input_form::placeholder {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.801);
+    color: #000000;
     font-size: 18px;
     font-weight: 500;
     line-height: 24px;
