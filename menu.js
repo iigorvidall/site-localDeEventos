@@ -11,6 +11,19 @@ document.addEventListener('DOMContentLoaded', function() {
   window.scrollTo(0, 0);
 });
 
+// Menu hamburguer  
+
+const hamburguer = document.querySelector(".mobile-menu");
+const nav = document.querySelector(".organiza_header_topo");
+
+hamburguer.addEventListener("click",() => nav.classList.toggle("active"));
+
+hamburguer.addEventListener("click",() => hamburguer.classList.toggle("active"));
+
+
+
+
+
 //menu button
 function mostrarDisplay(numero) {
   document.getElementById('button1').classList.remove('active_menu_button');
