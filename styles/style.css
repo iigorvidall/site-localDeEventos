@@ -1599,7 +1599,7 @@ body {
 
     .body{
         overflow: hidden;
-        max-width: 980px;
+        width: 980px;
     }
 
     .logo_subtitulo {
@@ -1747,7 +1747,7 @@ body {
     }
 
     .decor {
-        width: 400px;
+        width: 200px;
         
     }
 
