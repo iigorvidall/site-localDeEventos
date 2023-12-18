@@ -1323,6 +1323,11 @@ body {
     html, body{
         overflow-x: hidden !important; }
 
+        html{
+            scroll-behavior: smooth;
+        }
+        
+
     /*Responsividade para monitores 1280px-(960px section)    (990px p/ tablets e 780px para mobile) */
 
     .organiza_header_topo,
@@ -1594,7 +1599,42 @@ body {
     .segundo_footer {
         height: 40px;
     }
+
+    .banner_9_organize_icon_i{
+        border: none;
+        padding-top: 0px;
+    }
+    .organize_card{
+        padding-top: 10;
+    }
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Versao mobile ---------------------------------------------------------*/
 
@@ -1602,6 +1642,10 @@ body {
 
     html, body{
         overflow-x: hidden !important; }
+
+        html{
+            scroll-behavior: smooth;
+        }
 
     .body {
         overflow: hidden;
@@ -2107,68 +2151,14 @@ body {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media(max-width: 601px) {
 
     html, body{
-    overflow-x: hidden !important; 
-}
+    overflow-x: hidden !important; }
+    html{
+        scroll-behavior: smooth;
+    }
+
 
 
     .banner_3_organiza,
