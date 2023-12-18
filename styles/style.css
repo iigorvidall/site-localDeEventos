@@ -1595,9 +1595,46 @@ body {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Versao mobile ---------------------------------------------------------*/
 
 @media(max-width: 980px) {
+
+    .body{
+        overflow: hidden;
+    }
 
     .logo_subtitulo {
         display: none;
@@ -1605,7 +1642,7 @@ body {
 
     .logo {
         margin-left: 60px;
-        width: 50px;
+        width: 100%;
     }
 
     .icon_animated_1,
@@ -1743,7 +1780,8 @@ body {
     }
 
     .organize_banner_1 {
-        width: 300px
+        width: 100%;
+        margin-left: 40px;
     }
 
     /*-----------------banner 2 --------------------------*/
@@ -1756,8 +1794,9 @@ body {
     }
 
     .eventos {
-        width: 288px;
+        width: 100%;
         flex-direction: column;
+        align-items: center;
         gap: 30px;
     }
 
@@ -1776,7 +1815,7 @@ body {
     }
 
     .banner_1_div_botao_1 {
-        width: 150px;
+        width: 100%;
         height: 20px;
     }
 
@@ -1787,7 +1826,7 @@ body {
     }
 
     .banner_3_img {
-        width: 360px;
+        width: 100%;
         height: 240px;
         margin-bottom: 20px;
     }
