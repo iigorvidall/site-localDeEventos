@@ -1634,6 +1634,7 @@ body {
 
     .body{
         overflow: hidden;
+        max-width: 980px;
     }
 
     .logo_subtitulo {
