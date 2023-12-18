@@ -1595,7 +1595,7 @@ body {
 
 /* Versao mobile ---------------------------------------------------------*/
 
-@media(max-width: 450px) {
+@media(max-width: 980px) {
 
     .body{
         overflow: hidden;
@@ -1701,6 +1701,7 @@ body {
         pointer-events: all;
         opacity: 1;
         transform: translateX(0);
+        height: 100vh;
     }
 
     .mobile-menu.active {
@@ -1745,13 +1746,14 @@ body {
         font-size: 30px;
     }
 
-    .organize_banner_1 {
-        width: 100%;
-        margin-left: 40px;
+    .decor {
+        width: 700px;
+        margin-left: 80px;
     }
 
     /*-----------------banner 2 --------------------------*/
     #banner {
+        overflow: hidden;
         margin-bottom: 40px;
     }
 
