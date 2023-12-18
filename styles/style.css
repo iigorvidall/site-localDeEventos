@@ -1747,7 +1747,7 @@ body {
     }
 
     .decor {
-        width: 200px;
+        width: 600px;
         
     }
 
@@ -1787,6 +1787,7 @@ body {
     }
 
     .banner_3_organiza {
+        width: 100%;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -1870,7 +1871,6 @@ body {
 
     .banner_3_organiza_article{
         text-align: center;
-
         margin: 0;
     }
 
@@ -2079,4 +2079,10 @@ body {
 .segundo_footer_politicas{
     margin-left: 7px;
 }
+
+.banner_6_cards {
+    width: 100%;
+}
+
+
 }
