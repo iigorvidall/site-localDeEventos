@@ -17,7 +17,6 @@ a {
     --madeiraClaro: #1c79e1;
     --cinza: #d5cac6;
     --cinza2: #f7f7f7;
-
 }
 
 html {
@@ -28,6 +27,10 @@ body {
     width: 100%;
     height: 200vh;
     overflow-x: hidden;
+}
+
+.hiddenClass {
+    visibility: hidden;
 }
 
 .decor {
@@ -80,7 +83,7 @@ body {
 .header_topo {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     height: 60px;
     transition: 0.7s;
     background-color: rgba(0, 0, 0, 0.3);
@@ -1318,15 +1321,24 @@ body {
     display: none;
 }
 
-@media(max-width: 1280px) {
 
-    html, body{
-        overflow-x: hidden !important; }
+.fade_button {
+    width: 203px;
+    height: 75px;
+    display: flex;
+    align-items: center;
 
-        html{
-            scroll-behavior: smooth;
-        }
-        
+}
+
+@media(max-width: 1381px) {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    #banner {
+        background: url(../components/imagesMobile/banner_principal_1380.png);
+        background-size: cover;
+    }
 
     /*Responsividade para monitores 1280px-(960px section)    (990px p/ tablets e 780px para mobile) */
 
@@ -1485,6 +1497,7 @@ body {
         justify-content: center;
         border-top: 3px solid #001528c7;
         padding-top: 30px;
+        margin-bottom: 200px;
     }
 
     .ancora_icon {
@@ -1600,56 +1613,32 @@ body {
         height: 40px;
     }
 
-    .banner_9_organize_icon_i{
+    .banner_9_organize_icon_i {
         border: none;
         padding-top: 0px;
     }
-    .organize_card{
+
+    .organize_card {
         padding-top: 10;
     }
-
-
-
-
 }
 
+/* Versao tablet ---------------------------------------------------------*/
 
+@media(max-width: 1080px) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Versao mobile ---------------------------------------------------------*/
-
-@media(max-width: 980px) {
-
-    html, body{
-        overflow-x: hidden !important; }
-
-        html{
-            scroll-behavior: smooth;
-        }
+    html {
+        scroll-behavior: smooth;
+    }
 
     .body {
         overflow: hidden;
         width: 980px;
+    }
+
+    #banner {
+        background: url(../components/imagesMobile/banner_principal_1080.png);
+        background-size: cover;
     }
 
     .logo_subtitulo {
@@ -1745,7 +1734,6 @@ body {
         transform: translateX(-100%);
         pointer-events: none;
     }
-
 
     .organiza_header_topo.active {
         pointer-events: all;
@@ -2038,8 +2026,28 @@ body {
 
     .post1,
     .organize_card_e_img,
-    .post1_img {
-        width: 360px;
+    .post1_img,
+    .banner_9_container {
+        width: 340px;
+    }
+
+    .banner_9_card {
+        right: 0;
+        left: 0;
+        top: -70px;
+    }
+
+    .organize_card_e_img {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .post1 img {
+        width: 349px;
+        height: 349px;
     }
 
     .banner_9_card,
@@ -2153,12 +2161,14 @@ body {
 
 @media(max-width: 601px) {
 
-    html, body{
-    overflow-x: hidden !important; }
-    html{
+    html {
         scroll-behavior: smooth;
     }
 
+    #banner {
+        background: url(../components/imagesMobile/banner_principal_601.png);
+        background-size: cover;
+    }
 
 
     .banner_3_organiza,
@@ -2181,10 +2191,11 @@ body {
     .banner_4_section_2_organiza,
     .banner_5_container,
     .banner_6_container,
-    
+
     .organize_card_e_img,
     .banner_footer_organize,
-    .links_rápidos, .organize_segundo_footer {
+    .links_rápidos,
+    .organize_segundo_footer {
         width: 350px;
     }
 
@@ -2256,25 +2267,27 @@ body {
         margin-top: 90px;
     }
 
-    .links_rápidos{
+    .links_rápidos {
         padding: 0;
         margin: 0;
     }
 
 
-    .banner_4_section_2_organiza{
+    .banner_4_section_2_organiza {
         margin-inline: 0;
     }
 
-    .header_topo, .logo{
+    .header_topo,
+    .logo {
         width: 100vw;
     }
-.logo{
-    display: none;
-}
 
-.banner_4_section_2_organiza{
-    margin-inline: auto;
-}
+    .logo {
+        display: none;
+    }
+
+    .banner_4_section_2_organiza {
+        margin-inline: auto;
+    }
 
 }
