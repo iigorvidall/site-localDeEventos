@@ -77,13 +77,16 @@ ScrollReveal().reveal('.titulo', { duration: 1400});
 ScrollReveal().reveal('.fade_button', { duration: 1800});
 ScrollReveal().reveal('.ancora_imagem', { duration: 1000});
 ScrollReveal().reveal('.banner_3_conteudo', { duration: 1500}); 
+
 ScrollReveal().reveal('.card_1_figure', { duration: 500}); 
-ScrollReveal().reveal('.card_2_figure', { duration: 1500}); 
-ScrollReveal().reveal('.card_3_figure', { duration: 2500}); 
-ScrollReveal().reveal('.card_4_figure', { duration: 3500}); 
+ScrollReveal().reveal('.card_2_figure', { duration: 1000}); 
+ScrollReveal().reveal('.card_3_figure', { duration: 2000}); 
+ScrollReveal().reveal('.card_4_figure', { duration: 3000}); 
+
 ScrollReveal().reveal('.banner_5_fade1', { duration: 500}); 
-ScrollReveal().reveal('.banner_5_fade2', { duration: 1500}); 
-ScrollReveal().reveal('.banner_5_fade3', { duration: 2500}); 
+ScrollReveal().reveal('.banner_5_fade2', { duration: 1000}); 
+ScrollReveal().reveal('.banner_5_fade3', { duration: 2000}); 
+
 ScrollReveal().reveal('.banner_6_titulo', { duration: 1000}); 
 ScrollReveal().reveal('.banner_9_container', { duration: 1000}); 
 ScrollReveal().reveal('.contato_footer', { duration: 3000}); 
