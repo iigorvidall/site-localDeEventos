@@ -383,8 +383,7 @@ body {
 }
 
 .banner_3_conteudo h1 {
-    font-size: 34px;
-    white-space: nowrap;
+    font-size: 33px;
     margin-bottom: 28px;
     font-weight: 600;
     line-height: 1.2;
@@ -1659,12 +1658,6 @@ body {
         width: 90vw;
     }
 
-
-
-
-
-
-
     #banner {
         background: url(../components/imagesMobile/banner_principal_1080.png);
         background-size: cover;
@@ -2495,17 +2488,12 @@ body {
         top: -100px;
         background-size: cover;
         background-position: center;
-        /* width: 570px;
-        height: 530px; */
     }
 
     .banner_9_card {
         width: 440px;
         top: 0;
         height: 170px;
-        /* width: 515px;
-        max-width: 515px;
-        height: 150px; */
     }
 
     .banner_9_organize_icon_i {
@@ -2567,11 +2555,13 @@ body {
 
     .banner_3_img {
         min-width: 0;
-        width: 90vw;
-        height: 260px;
+        width: 80vw;
+        height: 290px;
     }
 
     .banner_3_conteudo h1 {
+        display: flex;
+        flex-wrap: wrap;
         white-space: wrap;
         width: 90vw;
         font-size: 28px;
@@ -2721,5 +2711,16 @@ body {
 .banner_1_ancora{
     padding-block: 15px;
 }
+}
 
+@media (max-width: 460px) {
+    .banner_3_img{
+        height: 220px;
+    }
+}
+
+@media (max-width: 360px) {
+    .banner_3_img{
+        height: 200px;
+    }
 }
