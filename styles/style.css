@@ -1340,6 +1340,11 @@ body {
         scroll-behavior: smooth;
     }
 
+    body{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
     #banner {
         background: url(../components/imagesMobile/banner_principal_1380.png);
         background-size: cover;
@@ -1363,6 +1368,21 @@ body {
         /*Correção de section central*/
         width: 960px;
     }
+
+    .banner_10 a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner_10, .banner_10 a{
+        width: 100vw;
+    }
+
+    .banner_10 a li {
+        width: 99vw;
+    }
+
 
     .logo_subtitulo,
     .florzinha,
@@ -2390,6 +2410,7 @@ body {
     }
 
     .banner_4_titulo {
+        width: 90vw;
         font-size: 30px;
     }
 
@@ -2723,4 +2744,26 @@ body {
     .banner_3_img{
         height: 200px;
     }
+
+    .form{
+        width: 85vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .input_form, .banner_7_botao, .banner_4_botao{
+        width: 250px;
+    }
+    #banner_7_botao {
+        width: 110px;
+        height: 60;
+        padding: 17px 90px 15px 90px;
+        margin: 0 0 0 0;
+        min-width: 0px;
+
+    }
+    
+
 }
