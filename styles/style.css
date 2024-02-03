@@ -191,13 +191,13 @@ body {
 .banner_1_ancora:hover {
 
     background-color: #ffffff1e;
-    border-top: 3px solid #ffffffde;
+    border-top: 6px solid #ffffffde;
 }
 
 .rolagem .banner_1_ancora:hover {
 
     background-color: #1c395290;
-    border-top: 3px solid var(--madeiraClaro);
+    border-top: 6px solid var(--madeiraClaro);
 }
 
 .banner_1_li {
