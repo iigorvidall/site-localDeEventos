@@ -2685,6 +2685,11 @@ body {
 .input_form{
     width: 244px;
 }
+
+#banner_7_botao{
+    padding: 17px 90px 15px 90px;
+}
+
 .banner_9{
     height: 1100px;
 }
